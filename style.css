@@ -1,0 +1,54 @@
+:root {
+    --bg-color: #333333;
+    --title-color: #643173;
+    --subtitle-color: #86A59C;
+    --text-color: #6290C3;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 10% auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: var(--title-color);
+    margin: 10px auto;
+    padding: 10px;
+    letter-spacing: 5px;
+    font-size: 500%;
+    display: block;
+}
+
+h2 {
+    color: var(--subtitle-color); 
+    text-align: center;
+    display: block;
+}   
+
+p {
+    color: var(--subtitle-color);
+    text-align: center;  
+    display: block;
+    font-size: 110%;
+}
+
+#press-space {
+    color: #ffffff;
+    padding: 40px;
+    display: block;
+    font-size: 120%;
+    opacity: 0.25;
+    animation: pulse 2s infinite linear;
+}
+
+@keyframes pulse {
+    0%{opacity: 0.25;}
+    50%{opacity: 0.8;}
+    100%{opacity: 0.25;}
+}
