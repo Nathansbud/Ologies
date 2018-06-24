@@ -1,5 +1,4 @@
 var numbers = [];
-var n = 0;
 var currentName = '';
 var currentField = '';
 var index;
@@ -13,6 +12,7 @@ document.addEventListener('keypress', function(){
         currentField = data["ologies"][index]["field"];
         document.getElementById('name').innerHTML = currentName;
         document.getElementById('field').innerHTML = currentField;
+        document.getElementById('link').innerHTML = `Want to learn more? <a href='http://en.wikipedia.org/wiki/${currentName}'>Click here!</a>`
 
     }    
 });
@@ -25,6 +25,21 @@ function generateIndex() {
         console.log("spicy")
     }
     
-    numbers[n++] = index;
-    console.log(numbers)
+    numbers[numbers.length++] = index;
+    localStorage.setItem("ologies", JSON.stringify(numbers));
+}
+
+function init() {
+    if(!localStorage.getItem("ologies")) {
+        localStorage.setItem("ologies", JSON.stringify(numbers));
+    } else {
+        parsedNumbers = JSON.parse(localStorage.getItem("ologies"));
+        for(let i = 0; i < parsedNumbers.length; i++) {
+            numbers[i] = parsedNumbers[i];
+        }
+    }
+}
+
+window.onload = function() {
+    init();
 }

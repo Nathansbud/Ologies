@@ -3,6 +3,7 @@
     --title-color: #643173;
     --subtitle-color: #86A59C;
     --text-color: #6290C3;
+    --hover-color: #FF69B4;
 }
 
 * {
@@ -53,6 +54,19 @@ p {
 
 #main {
     display: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--hover-color);
+}
+
+a:visited {
+    color: var(--title-color);
 }
 
 @keyframes pulse {
