@@ -1,4 +1,4 @@
-{"ologies":[
+var data = {"ologies":[
 	{"name":"Abiology", "field":"The study of inanimate, inorganic, or lifeless things."},
 	{"name":"Acanthochronology", "field":"The study of cactus spines or euphorbia thorns grown in time ordered sequence."},
 	{"name":"Acanthology", "field":"The study of spined things, in particular sea urchins, and the resultant impact on taxonomy."},
@@ -184,7 +184,6 @@
 	{"name":"Cosmochronology", "field":"The science of determining timescales for astrophysical objects and events."},
 	{"name":"Cosmology", "field":"The study of the origin, evolution, and eventual fate of the universe."},
 	{"name":"Craniology", "field":"A pseudomedicine primarily focused on measurements of the human skull, based on the concept that the brain is the organ of the mind and the mental state can be determined by physical external characteristics."},
-	{"name":"Crapology", "field":"Nonsense, rubbish. Derived from the word crap."},
 	{"name":"Crenology", "field":"The utilization of mineral springs for therapeutic purposes."},
 	{"name":"Criminology", "field":"The scientific study of the nature, extent, management, causes, control, consequences, and prevention of criminal behavior, both on the individual and social levels."},
 	{"name":"Criteriology", "field":"The part of logic dealing with the establishment of criteria."},
