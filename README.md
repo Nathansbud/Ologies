@@ -1,4 +1,4 @@
-> <h1>Welcome to Ologies!</h1>
+> <h1><a href="http://nathansbud.github.io/Ologies">Welcome to Ologies!</a></h1>
 
 Feeling bored with your current path in life? Looking to try something new? Want to get lost in a Wikipedia page? 
 
